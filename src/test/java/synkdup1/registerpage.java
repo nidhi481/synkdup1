@@ -26,7 +26,6 @@ public class registerpage {
 	public static ExtentTest logger;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\lxman\\Desktop\\selenium-configuration\\chromedriver_win32\\chromedriver104.exe");
 		htmlReporter = new ExtentHtmlReporter("C:\\Users\\lxman\\eclipse-workspace\\synkdup1\\reports\\report1.html");
