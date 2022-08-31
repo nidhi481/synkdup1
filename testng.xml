@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/lxman/eclipse-workspace/synkdup1">
+        <classes>
+            <class name="synkdupmethod.associatemethod">
+                <methods>
+                    <include name="run1"/>
+                    <include name="run2"/>
+                    <include name="run3"/>
+                    <include name="run4"/>
+                    <include name="run5"/>
+                    <include name="run6"/>
+                </methods>
+            </class>
+            <class name="synkdupmethod.search">
+                <methods>
+                    <include name="run1"/>
+                    <include name="run2"/>
+                    <include name="run3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
